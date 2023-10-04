@@ -76,8 +76,6 @@ a {
 }
 
 
-
-
 /* Buttons */
 .btn {
     padding: 1rem 1.5rem;
@@ -407,7 +405,6 @@ nav ul li a {
     width: 100%;
     padding: 0.75rem 1.3rem;
     font-family: "Roboto", sans-serif;
-    background: var(--secondaryBackgroundColor);
     border: 1px solid black;
     border-radius: 3px;
     resize: none;
@@ -421,7 +418,7 @@ nav ul li a {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border: 1px solid #7e74f1;
+    border: 1px solid #53b0e6;
 }
 
 .btn-submit {
