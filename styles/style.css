@@ -60,6 +60,7 @@ li {
 
 a {
     text-decoration: none;
+    
 }
 
 /* End Preparation */
@@ -128,15 +129,20 @@ a {
 /* --- Logo and Navigation Menu --- */
 .nav {
     display: flex;
+    right: 50px;
     justify-content: space-between;
     padding: 2rem 0;
 }
 
 
-nav ul {
+.nav ul {
     list-style: none;
     display: flex;
     gap: 3rem;
+}
+
+.nav ul li a:hover{
+    color: var(--primaryIconColor);
 }
 
 /* Logo */
