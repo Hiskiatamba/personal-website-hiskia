@@ -1,9 +1,10 @@
+
 function onFormSubmit(e) {
     e.preventDefault()
     const email = $("#inp_email")
     const  = $("#inp_subject")
     const message = $("#inp_message")
-
+    
     if(!$(email).val()) {
         alert("Email is required")
     } else if (!$(subject).val()) {
